@@ -1,0 +1,73 @@
+.layout {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+}
+
+.output {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    gap: 10px;
+    padding: 10px;
+    border: solid 3px #7ea6cf;
+    width: 620px;
+    height: 620px;
+    overflow: auto;
+}
+
+.message {
+    border: solid 3px #7ea6cf;
+    border-radius: 5px;
+    padding: 10px;
+    font-size: 16px;
+    color: #7c7f81;
+    max-width: 70%;
+    word-wrap: break-word;
+}
+
+.input-msg {
+    align-self: flex-end;
+}
+
+.output-msg {
+    align-self: flex-start;
+}
+
+.events {
+    display: flex;
+    gap: 10px;
+}
+
+.input {
+    width: 360px;
+    border: solid 3px #7ea6cf;
+    border-radius: 5px;
+    padding: 10px;
+    font-size: 16px;
+    color: #7c7f81;
+    outline: none;
+}
+
+input::placeholder {
+    color: #7c7f8185;
+}
+
+.button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+    width: 120px;
+    background-color: #7ea6cf;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.button:hover {
+    background-color: #6182a2;
+}
